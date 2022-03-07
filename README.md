@@ -6,7 +6,7 @@ with charm interface we can interact with onepassword item to
 
 
 Creaet .env 
-OP_CONNECT_TOKEN // onepassword token
-OP_CONNECT_HOST  // onepassword docker hosted utl
-VAULT // onepassword valut
+- OP_CONNECT_TOKEN // onepassword token
+- OP_CONNECT_HOST  // onepassword docker hosted utl
+- VAULT // onepassword valut
 

@@ -9,7 +9,7 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 )
 
-func main2() {
+func main() {
 
 	rand.Seed(time.Now().UTC().UnixNano())
 

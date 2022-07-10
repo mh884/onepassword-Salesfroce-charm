@@ -30,7 +30,7 @@ func getCredentials(itemUUID string, vault string) Config {
 	var OP_CONNECT_HOST = viperEnvVariable("OP_CONNECT_HOST")
 	item := Config{}
 	client := connect.NewClient(OP_CONNECT_HOST, OP_CONNECT_TOKEN)
-	err := client.LoadStructFromItem(&item, itemUUID, vault)
+	err := client.LoadStructFromItemByTitle(&item, itemUUID, vault)
 	if err != nil {
 		fmt.Println(err)
 	}
